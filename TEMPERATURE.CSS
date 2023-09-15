@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, black, royalblue);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 525px;
+    padding: 1px;
+    width: 50%;
+    margin: 100px 25%;
+    border-radius: 15px;
+    background: white;
+    box-shadow: inset 5px 5px 10px white,
+    inset 5px 5px 20px white,
+    inset -5px -5px 15px grey;
+}
+.container2{
+    height: 70px;
+    font-size: 20px;
+    width: 90%;
+    padding: 12px;
+    color: white;
+    margin: 5%;
+    background: red;
+    border-radius: 15px;
+    text-align: center;
+}
+.result{
+    text-align: center;
+    margin: 10px 100px;
+}
+.result-heading{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.celsius-value{
+    border: 2px solid black;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 20px;
+}
+#degree{
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    flex-direction: row;
+    width: 300px;
+}
+label{
+    color: white;
+    background: royalblue;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+input, select{
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+input:focus{
+    border: 2px solid royalblue;
+    height: 45px;
+    color: black;
+}
+option{
+    background: red;
+    color: black;
+    justify-content: space-between;
+    border: 2px solid royalblue;
+    height: 45px;
+}
+#convert-btn{
+    display: flex;
+    margin: 0 60%;
+    font-size: 25px;
+    width: 250px;
+    background: royalblue;
+    border: 2px solid  red;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+#convert-btn:hover{
+    background:  green;
+}
